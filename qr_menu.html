@@ -1,211 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Menü</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fafafa;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h2 {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        li {
-            padding: 5px 0;
-            border-bottom: 1px solid #ddd;
-        }
-        .price {
-            float: right;
-        }
-    </style>
-</head>
-<body>
-    <h1>QR Menü</h1>
-
-    <section>
-        <h2>🥣 Başlangıçlar</h2>
-        <ul>
-            <li>Günlük Çorba <span class="price">250₺</span></li>
-            <li>Paçanga Böreği <span class="price">350₺</span></li>
-            <li>Sigara Böreği <span class="price">300₺</span></li>
-            <li>Mozzarella Sticks <span class="price">300₺</span></li>
-            <li>Patates Tabağı <span class="price">300₺</span></li>
-            <li>Soğan Halkası <span class="price">250₺</span></li>
-            <li>Peynir Tabağı <span class="price">350₺</span></li>
-            <li>Karides Tava <span class="price">800₺</span></li>
-            <li>Kalamar Izgara <span class="price">950₺</span></li>
-            <li>Çıtır Tavuk <span class="price">450₺</span></li>
-            <li>Çıtır Mantar <span class="price">400₺</span></li>
-            <li>Çıtır Karides <span class="price">850₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🥗 Salatalar</h2>
-        <ul>
-            <li>Çoban Salata <span class="price">250₺</span></li>
-            <li>Akdeniz Salata <span class="price">250₺</span></li>
-            <li>Tavuklu Sezar Salata <span class="price">350₺</span></li>
-            <li>Roka Salatası <span class="price">250₺</span></li>
-            <li>Ton Balıklı Salata <span class="price">350₺</span></li>
-            <li>Yeşil Salata <span class="price">270₺</span></li>
-            <li>Tavuklu Salata <span class="price">350₺</span></li>
-            <li>Avokadolu Salata <span class="price">350₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🧆 Mezeler</h2>
-        <ul>
-            <li>Haydari <span class="price">220₺</span></li>
-            <li>Fava <span class="price">270₺</span></li>
-            <li>Ahtapot Salatası <span class="price">550₺</span></li>
-            <li>Acılı Ezme <span class="price">270₺</span></li>
-            <li>Girit Ezmesi <span class="price">270₺</span></li>
-            <li>Deniz Börülcesi <span class="price">250₺</span></li>
-            <li>Şakşuka <span class="price">250₺</span></li>
-            <li>Atom <span class="price">250₺</span></li>
-            <li>Köpoğlu <span class="price">250₺</span></li>
-            <li>Kabak Çiçeği Dolması <span class="price">300₺</span></li>
-            <li>Közlenmiş Patlıcan Salatası <span class="price">250₺</span></li>
-            <li>Zeytinyağlı Enginar <span class="price">270₺</span></li>
-            <li>Yoğurtlu Havuç <span class="price">250₺</span></li>
-            <li>Borani <span class="price">250₺</span></li>
-            <li>Lakerda <span class="price">500₺</span></li>
-            <li>Zeytin Ezmesi <span class="price">150₺</span></li>
-            <li>Semizotu Yoğurtlu <span class="price">250₺</span></li>
-            <li>Ezine Peynir <span class="price">150₺</span></li>
-            <li>Kuru Cacık <span class="price">250₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🍝 Makarna Çeşitleri</h2>
-        <ul>
-            <li>Spaghetti Napoliten <span class="price">350₺</span></li>
-            <li>Spaghetti Bolognese <span class="price">450₺</span></li>
-            <li>Penne Arabiata <span class="price">450₺</span></li>
-            <li>Penne 4 Peynirli <span class="price">600₺</span></li>
-            <li>Karidesli Linguine <span class="price">700₺</span></li>
-            <li>Sebzeli Spaghetti <span class="price">400₺</span></li>
-            <li>Deniz Mahsullü Makarna <span class="price">1150₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🍕 Pizzalar</h2>
-        <ul>
-            <li>Margherita <span class="price">400₺</span></li>
-            <li>Dört Peynirli <span class="price">500₺</span></li>
-            <li>Sebzeli Pizza <span class="price">400₺</span></li>
-            <li>Ton Balıklı Pizza <span class="price">400₺</span></li>
-            <li>Karışık Pizza <span class="price">500₺</span></li>
-            <li>Pizza Luna <span class="price">400₺</span></li>
-            <li>Mexican Pizza <span class="price">450₺</span></li>
-            <li>Margarita (domates, kekik) <span class="price">400₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🍽️ Ana Yemekler</h2>
-        <ul>
-            <li>Izgara Levrek <span class="price">800₺</span></li>
-            <li>Ahtapot Izgara <span class="price">1000₺</span></li>
-            <li>Karides Güveç <span class="price">800₺</span></li>
-            <li>Kalamar Tava <span class="price">950₺</span></li>
-            <li>Çupra <span class="price">750₺</span></li>
-            <li>Tavuk Şiş <span class="price">500₺</span></li>
-            <li>Izgara Köfte <span class="price">500₺</span></li>
-            <li>Mantarlı Tavuk Sote <span class="price">500₺</span></li>
-            <li>Köri Soslu Tavuk <span class="price">500₺</span></li>
-            <li>Kremalı Mantarlı Tavuk <span class="price">500₺</span></li>
-            <li>Cheddar Soslu Tavuk <span class="price">500₺</span></li>
-            <li>Mexican Tavuk <span class="price">550₺</span></li>
-            <li>Et Sote <span class="price">700₺</span></li>
-            <li>Beğendi Yatağında Bonfile <span class="price">1150₺</span></li>
-            <li>Lokum Et <span class="price">1150₺</span></li>
-            <li>Karışık Izgara <span class="price">1750₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🍳 Kahvaltılar</h2>
-        <ul>
-            <li>Serpme Kahvaltı (2 kişilik) <span class="price">900₺</span></li>
-            <li>Omlet <span class="price">200₺</span></li>
-            <li>Sahanda Yumurta <span class="price">200₺</span></li>
-            <li>Sucuklu Yumurta <span class="price">250₺</span></li>
-            <li>Kavurmalı Yumurta <span class="price">300₺</span></li>
-            <li>Tost <span class="price">200₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🍰 Tatlılar</h2>
-        <ul>
-            <li>Hamsiköy Sütlaç <span class="price">250₺</span></li>
-            <li>San Sebastian Cheesecake <span class="price">350₺</span></li>
-            <li>Ayva Tatlısı <span class="price">250₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🍷 Alkollü İçecekler</h2>
-        <ul>
-            <li>Yeni Rakı (35cl) <span class="price">1500₺</span></li>
-            <li>Yeni Rakı (70cl) <span class="price">2750₺</span></li>
-            <li>Efe Rakı <span class="price">1900₺</span></li>
-            <li>Tekirdağ Rakısı <span class="price">1750₺</span></li>
-            <li>Rakı Duble <span class="price">400₺</span></li>
-            <li>Rakı Tek <span class="price">200₺</span></li>
-            <li>Kırmızı Şarap (Kadeh / Şişe) <span class="price">375₺ / 1300₺</span></li>
-            <li>Beyaz Şarap (Kadeh / Şişe) <span class="price">350₺ / 1200₺</span></li>
-            <li>Rose Şarap (Kadeh / Şişe) <span class="price">350₺ / 1200₺</span></li>
-            <li>Efes Pilsen <span class="price">220₺</span></li>
-            <li>Bomonti <span class="price">250₺</span></li>
-            <li>Tuborg Gold <span class="price">220₺</span></li>
-            <li>Tuborg Filtresiz <span class="price">220₺</span></li>
-            <li>Corona <span class="price">250₺</span></li>
-            <li>Heineken <span class="price">250₺</span></li>
-            <li>Mojito <span class="price">600₺</span></li>
-            <li>Margarita <span class="price">600₺</span></li>
-            <li>Gin Tonic <span class="price">600₺</span></li>
-            <li>Irish Cream <span class="price">600₺</span></li>
-            <li>Sex on the Beach <span class="price">600₺</span></li>
-            <li>Martini <span class="price">600₺</span></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>🥤 Alkolsüz İçecekler</h2>
-        <ul>
-            <li>Kutu İçecekler <span class="price">100₺</span></li>
-            <li>Ice Tea <span class="price">100₺</span></li>
-            <li>Cappy Meyve Suyu <span class="price">100₺</span></li>
-            <li>Soda <span class="price">60₺</span></li>
-            <li>Maden Suyu <span class="price">60₺</span></li>
-            <li>Şişe Su <span class="price">40₺</span></li>
-            <li>Demleme Çay <span class="price">50₺</span></li>
-            <li>Bitki Çayları <span class="price">55₺</span></li>
-            <li>Türk Kahvesi <span class="price">150₺</span></li>
-            <li>Nescafe <span class="price">175₺</span></li>
-            <li>Americano <span class="price">150₺</span></li>
-        </ul>
-    </section>
-
-</body>
-</html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green Heaven Restaurant Menü</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #2a7c4f;
+    }
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-
